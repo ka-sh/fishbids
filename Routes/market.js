@@ -16,11 +16,11 @@ marketR.post('/:sellersID/offers',function(req,res){
 })
 
 //Bids
-marketR.get('/:sellerID/bids',function(req,res){
+marketR.get('/:sellerID/offers/:offerID/bids',function(req,res){
   res.send('Showing bids that belongs to : '+req.params);
 })
 
-marketR.post('/:sellerID/bids',function(req,res){
+marketR.post('/:sellerID/offers/:offerID/bids',function(req,res){
 res.send('submitting bids for  '+req.params);
 })
 
