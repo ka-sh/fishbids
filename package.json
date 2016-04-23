@@ -1,0 +1,25 @@
+{
+  "name": "fishbids",
+  "version": "1.0.0",
+  "description": "Give hope to the fishes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ka-sh@github.com/ka-sh/fishbids.git"
+  },
+  "keywords": [
+    "fishbids"
+  ],
+  "author": "neofish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ka-sh/fishbids/issues"
+  },
+  "homepage": "https://github.com/ka-sh/fishbids#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
